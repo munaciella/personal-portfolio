@@ -1,0 +1,31 @@
+.linkedin-icon-container {
+    position: fixed;
+    top: 60px;
+    right: 20px;
+    z-index: 1000;
+}
+
+.linkedin-icon-container a {
+    color: black; 
+    text-decoration: none; 
+    transition: color 0.3s; 
+    position: relative;
+}
+
+.linkedin-icon-container a:hover {
+    color: gray; 
+}
+
+.linkedin-icon-container a:hover::after {
+    content: "Visit my LinkedIn"; 
+    position: absolute;
+    top: 5%; 
+    right: calc(100% + 10px); 
+    transform: translateY(-50%);
+    background-color: black;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 12px;
+    white-space: nowrap;
+}

@@ -3,6 +3,7 @@ import './App.css';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Header from './Components/Header/Header';
 import GitHub from './Components/GitHub/GitHub';
+import LinkedIn from './Components/LinkedIn/LinkedIn';
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
     <BrowserRouter>
       <Header/>
       <GitHub/>
+      <LinkedIn/>
       <Routes>
         <Route/> 
         {/* path="/" element={<Header/>}/> */}
