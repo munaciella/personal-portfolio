@@ -9,6 +9,7 @@ import { ThemeProvider } from './Components/ThemeContext/ThemeContext';
 import './App.css';
 import Navbar from "./Components/NavBar/NavBar";
 import Content from "./Components/Content/Content";
+import Statement from './Components/Statement/Statement';
 
 const App: React.FC = () => {
   // const { theme, toggleTheme } = useTheme();
@@ -21,6 +22,7 @@ const App: React.FC = () => {
     <>
       <ThemeProvider>
             <Header />
+            <Statement/>
           <BrowserRouter>
           <Content/>
           <Navbar/>
