@@ -20,18 +20,35 @@ export const useTheme = () => {
     }
     return context;
   };
-  
+
   // Theme provider component
   export const ThemeProvider: React.FC<ThemeProviderProps> = ({ children }) => {
     const [theme, setTheme] = useState<Theme>('light');
-  
+
     const toggleTheme = () => {
       setTheme(prevTheme => (prevTheme === 'light' ? 'dark' : 'light'));
     };
-  
+
     return (
       <ThemeContext.Provider value={{ theme, toggleTheme }}>
         {children}
       </ThemeContext.Provider>
     );
   };
+
+// import React, { createContext, useContext, useState } from 'react';
+
+// type ThemeContextType = {
+//   theme: string;
+//   toggleTheme: () => void;
+// };
+
+// export const ThemeContext = 
+// createContext<ThemeContextType>({
+//     theme: 'light',
+//     toggleTheme: () => {},
+// })
+
+// export const useTheme = () => {
+//     return useContext(ThemeContext)
+// }
