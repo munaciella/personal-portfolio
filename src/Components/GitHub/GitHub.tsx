@@ -1,5 +1,4 @@
 import { FaGithub } from 'react-icons/fa';
-import './GitHub.css';
 
 const GitHub: React.FC = () => {
   return (
