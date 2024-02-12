@@ -1,5 +1,4 @@
 import { FaEnvelope } from 'react-icons/fa';
-import './GMail.css';
 
 export const GMail: React.FC<{ email: string }> = ({ email }) => {
   const handleClick = () => {
@@ -7,14 +6,12 @@ export const GMail: React.FC<{ email: string }> = ({ email }) => {
   };
 
   return (
-    <div className="gmail-container">
+    <div>
       <FaEnvelope
         onClick={handleClick}
         color="black"
-        size={25}
+        size={30}
         style={{ cursor: 'pointer' }}
-        title='Email me'
-        className='email-icon'
       />
     </div>
   );
