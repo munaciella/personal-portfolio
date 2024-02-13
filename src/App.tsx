@@ -1,7 +1,8 @@
 import React from 'react';
 import GitHub from './Components/GitHub/GitHub';
 import LinkedIn from './Components/LinkedIn/LinkedIn';
-import { ContactPage } from './Components/ContactPage/ContactPage';
+//import backgroundImage from './assets/sky-stars-mountains-trees-wallpaper-preview.jpg';
+
 // import { BrowserRouter, Routes, Route } from 'react-router-dom';
 //import { ThemeProvider } from './Components/ThemeContext/ThemeContext';
 //import './App.css';
@@ -13,18 +14,20 @@ import { Timeline } from './Components/Timeline';
 import { Contact } from './Components/Contact';
 import { Portfolio } from './Components/Portfolio';
 import { Footer } from './Components/Footer';
+import { GMail } from './Components/GMail/GMail';
 
 const App: React.FC = () => {
   return (
-    <div className="App">
+    <div>
+    {/* className="m-0 p-0 bg-cover bg-center bg-no-repeat" style={{ backgroundImage: `url(${backgroundImage` }> */}
+      <GitHub />
+      <LinkedIn />
+      <GMail/>
       <Intro/>
       <Portfolio/>
       <Timeline/>
       <Contact/>
       <Footer/>
-      <GitHub />
-      <LinkedIn />
-      <ContactPage />
     </div>
   );
 };
