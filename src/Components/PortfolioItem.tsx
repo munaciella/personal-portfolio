@@ -36,7 +36,7 @@ export const PortfolioItem: React.FC<PortfolioItemProps> = ({
         </p>
       </div>
       <a href={link} target="_blank" rel="noopener noreferrer">
-        <button className='flex flex-wrap flex-row items-center border-2 border-green-400 rounded-md cursor-pointer bg-green-500 hover:text-green-200 justify-center'> Project Link</button>
+        <button className='flex flex-wrap flex-row items-center border-2 border-green-400 rounded-md cursor-pointer bg-green-500 hover:text-green-200 justify-center align-middle'> Project Link</button>
       </a>
     </div>
   );
