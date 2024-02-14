@@ -1,8 +1,11 @@
+import { FaCss3, FaJsSquare } from "react-icons/fa";
+
+
 export default [
   {
     title: 'NC News',
     imgUrl: '',
-    stack: ['CSS', 'JavaScript', 'React', 'PSQL', 'Node.js', 'Express', 'Jest'],
+    stack: [<FaCss3/>, <FaJsSquare/>, 'React', 'PSQL', 'Node.js', 'Express', 'Jest'],
     link: 'https://github.com/munaciella/nc-news-',
   },
   {

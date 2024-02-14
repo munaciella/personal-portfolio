@@ -2,6 +2,7 @@ import React from 'react';
 import portfolio from '../data/portfolio';
 import { PortfolioItem } from './PortfolioItem';
 
+
 export const Portfolio: React.FC = () => {
   return (
     <div className="flex flex-col md:flex-row items-center justify-center ml-10 mr-10 mb-40">
