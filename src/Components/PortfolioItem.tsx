@@ -29,16 +29,20 @@ export const PortfolioItem: React.FC<PortfolioItemProps> = ({
           {stack.map((item) => (
             <span
               key={item}
-              className="inline-block px-2 py-1 font-semibold border-2 border-stone-900 rounded-xl"
+              className="inline-block px-1 pt-2 pb-4 py-6 text-3xl"
             >
               {item}
             </span>
           ))}
         </p>
       </div>
-      <a href={link} target="_blank" rel="noopener noreferrer">
-        <button className='flex flex-wrap flex-row items-center border-1 border-green-400 rounded-md cursor-pointer bg-green-500 hover:text-green-200 justify-center align-middle p-1'> Project Link</button>
+      <div className='relative'>
+      <div className='flex justify-center pb-2'>
+      <a href={link} target="_blank" rel="noopener noreferrer" className='text-center'>
+        <button className='flex items-center border-1 border-green-400 rounded-md cursor-pointer bg-green-500 hover:text-green-200 p-1'> Project Link</button>
       </a>
+    </div>
+    </div>
     </div>
   );
 };
