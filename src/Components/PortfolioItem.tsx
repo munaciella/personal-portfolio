@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaCss3, FaJsSquare } from "react-icons/fa";
+//import { FaCss3, FaJsSquare } from "react-icons/fa";
 
 interface PortfolioItemProps {
   title: string;
@@ -19,7 +19,7 @@ export const PortfolioItem: React.FC<PortfolioItemProps> = ({
       <img
         src={imgUrl}
         alt="portfolio"
-        className="w-full h-36 md:h-48 object-cover cursor-pointer"
+        className="w-full h-56 xl:h-100 md:h-80 object-cover cursor-pointer"
       />
       <div className="w-full p-4">
         <h3 className="text-lg md:text-xl mb-2 md:mb-3 font-semibold">
