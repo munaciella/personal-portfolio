@@ -28,7 +28,7 @@ export default [
   },
   {
     title: 'Wax',
-    imgUrl: 'src/assets/Wax.png',
+    imgUrl: '/assets/Wax.png',
     stack: [
       <TbBrandReactNative />,
       <TbBrandTailwind />,
