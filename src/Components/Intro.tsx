@@ -7,7 +7,13 @@ export const Intro: React.FC = () => {
         Francesco Vurchio
       </h1>
       <p className="text-base md:text-xl mb-3 font-medium">Junior Software Engineer & Web Developer</p>
-      <p className='text-sm max-w-xl mb-6 font-bold'>A junior software developer with a passion for coding and a few months of experience under my belt. I recently completed a coding bootcamp where I learned the fundamentals of programming and gained hands-on experience working on personal projects. I'm proficient in JavaScript, Node.js, React.js, HTML and CSS to name a few, and I'm eager to continue learning and growing as a developer. I'm excited about the opportunity to contribute to a team and work on real-world projects. In my free time, I enjoy working on personal coding projects and participating in coding challenges. I'm a quick learner, a problem-solver, and a team player. I'm excited about the opportunity to bring my skills and enthusiasm to a junior software developer role.</p>
+      <div className='relative'>
+      <div className='flex justify-center pb-2'>
+      <a href='/assets/Francesco Vurchio-2024-CV.pdf' target="_blank" rel="noopener noreferrer" className='text-center'>
+        <button className='flex items-center border-1 border-green-400 rounded-md cursor-pointer bg-green-500 hover:text-green-200 p-1'> Project Link</button>
+      </a>
+    </div>
+    </div>
     </div>
   );
 };
