@@ -39,7 +39,7 @@ export const PortfolioItem: React.FC<PortfolioItemProps> = ({
       <div className='relative'>
       <div className='flex justify-center pb-2'>
       <a href={link} target="_blank" rel="noopener noreferrer" className='text-center'>
-        <button className='flex items-center border-1 border-green-400 rounded-md cursor-pointer bg-green-500 hover:text-green-200 p-1'> Project Link</button>
+        <button className='flex items-center border-1 border-green-400 rounded-md cursor-pointer bg-green-500 hover:text-green-200 p-1 px-4'> Project Link</button>
       </a>
     </div>
     </div>
