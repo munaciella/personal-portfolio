@@ -15,11 +15,13 @@ import { Contact } from './Components/Contact';
 import { Portfolio } from './Components/Portfolio';
 import { Footer } from './Components/Footer';
 import { GMail } from './Components/GMail/GMail';
+import { ProfilePic } from './Components/ProfilePic';
 
 const App: React.FC = () => {
   return (
     <div>
     {/* className="m-0 p-0 bg-cover bg-center bg-no-repeat" style={{ backgroundImage: `url(${backgroundImage` }> */}
+      <ProfilePic />
       <GitHub />
       <LinkedIn />
       <GMail/>
