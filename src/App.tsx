@@ -16,6 +16,7 @@ import { Portfolio } from './Components/Portfolio';
 import { Footer } from './Components/Footer';
 import { GMail } from './Components/GMail/GMail';
 import { ProfilePic } from './Components/ProfilePic';
+import { Ending } from './Components/Ending';
 
 const App: React.FC = () => {
   return (
@@ -30,6 +31,7 @@ const App: React.FC = () => {
       <Timeline/>
       <Contact/>
       <Footer/>
+      <Ending/>
     </div>
   );
 };
