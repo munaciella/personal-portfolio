@@ -25,8 +25,8 @@ export default [
     },
     {
         year: '2001',
-        title: 'PlantPoweredPT Personal Training @ The Gym Group',
-        duration: 'the beginning',
+        title: 'Moved to Manchester & First Job in the UK',
+        duration: 'January 2001 - February 2023',
         details: 'I wrote my first line of real code that opened the door to this journey into digital craftmanship that I never would have imagined.',
     },
 ]
