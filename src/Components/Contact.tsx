@@ -29,7 +29,7 @@ export const Contact: React.FC = () => {
             />
             <button 
             type='button' 
-            className='text-center inline-block px-8 py-3 w-max text-base font-medium rounded-md text-white bg-gradient-to-r from-yellow-500 to-pink-500 drop-shadow-md hover:from-yellow-600 hover:to-pink-600'>
+            className='text-center inline-block px-8 py-3 w-max text-base font-medium rounded-md text-white bg-gradient-to-r from-yellow-300 to-orange-600 drop-shadow-md hover:from-yellow-600 hover:to-orange-600'>
                 Work With Me
             </button>
         </form>
