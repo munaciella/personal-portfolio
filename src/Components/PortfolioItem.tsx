@@ -39,10 +39,15 @@ export const PortfolioItem: React.FC<PortfolioItemProps> = ({
       <div className='relative'>
       <div className='flex justify-center pb-2'>
       <a href={link} target="_blank" rel="noopener noreferrer" className='text-center'>
-        <button className='flex items-center border-1 border-green-400 rounded-md cursor-pointer bg-green-500 hover:text-green-200 p-1 px-4'> Project Link</button>
+        <button 
+        className='text-center inline-block px-4 py-2 w-max text-base font-medium text-white rounded-md cursor-pointer bg-gradient-to-r from-green-300 to-green-500 drop-shadow-md hover:from-green-400 hover:to-green-600'> 
+        Project Link
+        </button>
       </a>
     </div>
     </div>
     </div>
   );
 };
+ 
+            // className='text-center inline-block px-8 py-3 w-max text-base font-medium rounded-md text-white bg-gradient-to-r from-yellow-300 to-orange-600 drop-shadow-md hover:from-yellow-600 hover:to-orange-600'
