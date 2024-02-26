@@ -30,8 +30,8 @@ const App: React.FC = () => {
       <Portfolio/>
       <Timeline/>
       <Contact/>
-      <Footer/>
       <Ending/>
+      <Footer/>
     </div>
   );
 };

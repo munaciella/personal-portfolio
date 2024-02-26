@@ -2,7 +2,7 @@ import React from 'react';
 
 export const Contact: React.FC = () => {
   return (
-    <div className="flex flex-col mb-10 mx-auto">
+    <div className="flex flex-col mb-20 mx-auto p-5">
       <div className="flex justify-center items-center">
         <form 
         action="https://getform.io/f/lejxRBbj"
