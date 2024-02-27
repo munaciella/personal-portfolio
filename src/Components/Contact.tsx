@@ -1,7 +1,14 @@
 import React from 'react';
 import { Title } from './Title';
 
-export const Contact: React.FC = () => {
+interface ContactProps {
+    rows: number;
+}
+
+export const Contact: React.FC<ContactProps> = () => {
+
+    const rowsValue: string = '6'
+    const rows: number = parseInt(rowsValue)
   return (
     <div className="flex flex-col mb-20 mx-auto p-5">
       <div className="flex justify-center items-center">
@@ -26,7 +33,7 @@ export const Contact: React.FC = () => {
             <textarea
             name="message" 
             placeholder="Message" 
-            rows="10"
+            rows={rows}
             className='p-2 mb-4 bg-transparent border-2 rounded-md focus:outline-none'
             />
             <button 

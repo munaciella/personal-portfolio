@@ -29,7 +29,7 @@ const App: React.FC = () => {
       <Intro/>
       <Portfolio/>
       <Timeline/>
-      <Contact/>
+      <Contact rows={6}/>
       <Ending/>
       <Footer/>
     </div>
