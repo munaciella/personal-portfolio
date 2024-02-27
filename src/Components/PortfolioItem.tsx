@@ -4,7 +4,7 @@ import React from 'react';
 interface PortfolioItemProps {
   title: string;
   imgUrl: string;
-  stack: string[];
+  stack: React.ReactNode[];
   link: string;
 }
 
@@ -26,9 +26,9 @@ export const PortfolioItem: React.FC<PortfolioItemProps> = ({
           {title}
         </h3>
         <p className="flex flex-wrap gap-2 flex-row items-center justify-start text-xs md:text-sm">
-          {stack.map((item) => (
+          {stack.map((item, index) => (
             <span
-              key={item}
+              key={index}
               className="inline-block px-1 pt-2 pb-4 py-6 text-3xl"
             >
               {item}
