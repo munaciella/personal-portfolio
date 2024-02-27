@@ -10,14 +10,14 @@ export const Footer: React.FC = () => {
           </div>
         </div>
       );
-//   return (
-//     <div className="relative bottom-0 right-0" >
-//     <div className="absolute p-3 ml-2 m flex items-center py-4">
-//       <p className="text-sm mt-5 opacity-50">
-//         &copy; {new Date().getFullYear()} Francesco Vurchio. All rights
-//         reserved.
-//       </p>
-//     </div>
-//     </div>
-//   );
-};
+    };
+    //   return (
+    //     <div className="relative bottom-0 right-0" >
+    //     <div className="absolute p-3 ml-2 m flex items-center py-4">
+    //       <p className="text-sm mt-5 opacity-50">
+    //         &copy; {new Date().getFullYear()} Francesco Vurchio. All rights
+    //         reserved.
+    //       </p>
+    //     </div>
+    //     </div>
+    //   );

@@ -1,4 +1,5 @@
 import React from 'react';
+import { Title } from './Title';
 
 export const Contact: React.FC = () => {
   return (
@@ -9,6 +10,7 @@ export const Contact: React.FC = () => {
         method="POST"
         className='flex flex-col w-full md:w-7/12'
         >
+            <Title>Contact</Title>
             <input 
             type="text" 
             name='name'
