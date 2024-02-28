@@ -43,7 +43,7 @@ export default [
   },
   {
     title: 'Developer Portfolio',
-    imgUrl: '',
+    imgUrl: '/assets/Portfolio.png',
     stack: [<FaReact />, <SiTailwindcss />, <FaJsSquare />],
     link: 'https://',
   },
