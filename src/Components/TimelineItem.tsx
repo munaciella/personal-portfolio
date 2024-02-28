@@ -20,7 +20,7 @@ export const TimelineItem: React.FC<TimelineItemProps> = ({
         <p className='flex flex-wrap gap-4 flex-row items-center justify-start text-xs md:text-sm'>
             <span className='inline-block px-2 py-1 font-semibold text-white bg-stone-900 rounded-md'>{year}
             </span>
-            <h3 className='text-lg font-semibold text-stone-900'>
+            <h3 className='text-lg font-semibold text-stone-900 dark:text-stone-300'>
                 {title}
             </h3>
             <div className='my-1 text-sm font-normal leading-none text-stone-400'>

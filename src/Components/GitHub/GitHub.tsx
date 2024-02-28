@@ -7,7 +7,7 @@ const GitHub: React.FC = () => {
         href="https://github.com/munaciella"
         target="_blank"
         rel="noopener noreferrer"
-        className="text-black transition-colors duration-300 relative"
+        className="text-black dark:text-gray-300 transition-colors duration-300 relative"
       >
         <FaGithub size={35} className="hover:text-gray-500" />
       </a>

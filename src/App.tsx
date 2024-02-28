@@ -80,7 +80,7 @@ const App: React.FC = () => {
       <button
         type="button"
         onClick={handleThemeSwitch}
-        className="absolute p-2 z-10 right-16 top-5 mr-4 bg-violet-300 dark:bg-orange-300 text-lg rounded-md hover:bg-violet-400"
+        className="absolute p-1 z-10 right-16 top-5 mr-4 bg-violet-300 dark:bg-orange-300 text-lg rounded-md hover:bg-violet-400"
       >
         {theme === 'dark' ? sun : moon}
       </button>
