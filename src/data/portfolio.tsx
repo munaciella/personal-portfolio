@@ -22,7 +22,7 @@ export default [
   },
   {
     title: 'Munaciella-News',
-    imgUrl: '',
+    imgUrl: '/assets/Munaciella-news.png',
     stack: [ <FaHtml5 />, <FaReact />, <FaCss3 />, <FaJsSquare />],
     link: 'https://munaciella-news.netlify.app/',
   },
@@ -45,6 +45,6 @@ export default [
     title: 'Developer Portfolio',
     imgUrl: '/assets/Portfolio.png',
     stack: [<FaReact />, <SiTailwindcss />, <FaJsSquare />],
-    link: 'https://',
+    link: 'https://github.com/munaciella/personal-portfolio',
   },
 ];
