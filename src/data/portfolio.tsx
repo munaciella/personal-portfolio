@@ -14,7 +14,7 @@ import { TbBrandReactNative, TbBrandTailwind } from 'react-icons/tb';
 export default [
   {
     title: 'NC News',
-    imgUrl: '',
+    imgUrl: 'public/assets/Screenshot 2024-02-29 at 23.24.52.png',
     stack: [
       <FaCss3 />, <FaJsSquare />, <FaReact />, <BiLogoPostgresql />, <FaNodeJs />, <SiJest />
     ],
@@ -22,7 +22,7 @@ export default [
   },
   {
     title: 'Munaciella-News',
-    imgUrl: '/assets/Munaciella-news.png',
+    imgUrl: 'public/assets/Screenshot 2024-02-29 at 23.13.02.png',
     stack: [ <FaHtml5 />, <FaReact />, <FaCss3 />, <FaJsSquare />],
     link: 'https://munaciella-news.netlify.app/',
   },

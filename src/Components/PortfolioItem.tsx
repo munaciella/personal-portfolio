@@ -18,12 +18,13 @@ export const PortfolioItem: React.FC<PortfolioItemProps> = ({
       href={link}
       target="_blank"
       rel="noopener noreferrer"
-      className="border-2 border-stone-900 dark:border-white rounded-md overflow-hidden"
+      className="border-2 border-stone-900 dark:border-white rounded-md overflow-hidden p-2"
     >
       <img
         src={imgUrl}
         alt="portfolio"
-        className="w-full h-72 xl:h-100 md:h-80 object-cover cursor-pointer"
+        className="w-full h-56 xl:h-80 md:h-60 object-cover cursor-pointer"
+        style={{ objectFit: 'cover', width: '100%' }}
       />
       <div className="w-full p-4">
         <h3 className="text-lg md:text-xl dark:text-white mb-2 md:mb-3 font-semibold">
