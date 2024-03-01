@@ -1,14 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import GitHub from './Components/GitHub/GitHub';
 import LinkedIn from './Components/LinkedIn/LinkedIn';
-//import backgroundImage from './assets/sky-stars-mountains-trees-wallpaper-preview.jpg';
-
-// import { BrowserRouter, Routes, Route } from 'react-router-dom';
-//import { ThemeProvider } from './Components/ThemeContext/ThemeContext';
-//import './App.css';
-//import Navbar from './Components/NavBar/NavBar';
-// import Content from './Components/Content/Content';
-
 import { Intro } from './Components/Intro';
 import { Timeline } from './Components/Timeline';
 import { Contact } from './Components/Contact';
@@ -18,8 +10,11 @@ import { GMail } from './Components/GMail/GMail';
 import { ProfilePic } from './Components/ProfilePic';
 import { Ending } from './Components/Ending';
 
+// import { BrowserRouter, Routes, Route } from 'react-router-dom';
+// import './App.css';
+
 const App: React.FC = () => {
-  const [theme, setTheme] = useState(null);
+  const [theme, setTheme] = useState<string | null>(null);
 
   useEffect(() => {
     if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
