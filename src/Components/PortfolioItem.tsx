@@ -23,7 +23,7 @@ export const PortfolioItem: React.FC<PortfolioItemProps> = ({
       <img
         src={imgUrl}
         alt="portfolio"
-        className="w-full h-56 xl:h-80 md:h-60 object-cover cursor-pointer"
+        className="w-full h-56 xl:h-80 md:h-60 sm:h-40 object-cover cursor-pointer"
         style={{ objectFit: 'cover', width: '100%' }}
       />
       <div className="w-full p-4">
