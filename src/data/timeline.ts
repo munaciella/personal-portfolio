@@ -13,20 +13,20 @@ export default [
     },
     {
         year: '2018',
-        title: 'PlantPoweredPT Personal Training @ The Gym Group',
+        title: 'Plant Powered PT Personal Training @ The Gym Group',
         duration: '5 years',
-        details: 'I wrote my first line of real code that opened the door to this journey into digital craftmanship that I never would have imagined.',
+        details: 'I entered into a role as a personal trainer and established a successful self-employed venture. Through proactive business development, I proficiently conducted personal training sessions and effectively advertised and promoted my services.',
     },
     {
-        year: '2014',
-        title: 'BSc Honours in Sport, Fitness and Coaching',
+        year: '2015',
+        title: 'BSc Hons Sport, Fitness & Coaching',
         duration: '6 years',
-        details: 'I wrote my first line of real code that opened the door to this journey into digital craftmanship that I never would have imagined.',
+        details: 'I always had a passion for sport, so I decided to broaden my knowledge. I studied the principles of sports coaching, management and sports psychology, advanced nutrition and strength and conditioning. Gained practical experiences on preparing athletes for competition levels.',
     },
     {
         year: '2001',
         title: 'Moved to Manchester & First Job in the UK',
         duration: '22 years',
-        details: 'I wrote my first line of real code that opened the door to this journey into digital craftmanship that I never would have imagined.',
+        details: 'I maintained our family tradition in hairdressing by serving as a senior hairstylist. Alongside my main role, I also managed various aspects of the business including website maintenance, social media presence, troubleshooting and recruitment.',
     },
 ]
