@@ -23,7 +23,7 @@ To get started with this portfolio site template, follow these steps:
 2. **Install Dependencies**: Navigate to the project directory and install dependencies using npm or yarn:
 
    ```
-   cd pewrsonal-portfolio
+   cd personal-portfolio
    npm install
    ```
 
