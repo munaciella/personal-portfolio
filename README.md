@@ -23,14 +23,14 @@ To get started with this portfolio site template, follow these steps:
 2. **Install Dependencies**: Navigate to the project directory and install dependencies using npm or yarn:
 
    ```
-   cd react-portfolio
+   cd pewrsonal-portfolio
    npm install
    ```
 
    or
 
    ```
-   cd react-portfolio
+   cd personal-portfolio
    yarn install
    ```
 
@@ -69,6 +69,7 @@ To get started with this portfolio site template, follow these steps:
 - TailwindCSS
 - JavaScript (ES6+)
 - Typescript
+- Vite
 - Responsive Design
 
 ## Credits
