@@ -9,7 +9,7 @@ export const Ending: React.FC = () => {
       </p>
       <img
         className="w-8 h-auto ml-2"
-        src="public/assets/FranIcon.png"
+        src="/assets/FranIcon.png"
         alt="Francesco's Image"
       />
     </div>
