@@ -44,7 +44,7 @@ export default [
   {
     title: 'Developer Portfolio',
     imgUrl: '/assets/Portfolio.png',
-    stack: [<FaReact />, <SiTailwindcss />, <FaJsSquare />],
+    stack: [<FaReact />, <SiTailwindcss />, <SiTypescript />],
     link: 'https://github.com/munaciella/personal-portfolio',
   },
 ];
