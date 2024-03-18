@@ -13,12 +13,12 @@ import { TbBrandReactNative, TbBrandTailwind } from 'react-icons/tb';
 
 export default [
   {
-    title: 'NC News',
+    title: 'Munaciella-News Back-End',
     imgUrl: '/assets/NC-News.png',
     stack: [
       <FaCss3 />, <FaJsSquare />, <FaReact />, <BiLogoPostgresql />, <FaNodeJs />, <SiJest />
     ],
-    link: 'https://github.com/munaciella/nc-news-',
+    link: 'https://github.com/munaciella/NC-news',
   },
   {
     title: 'Munaciella-News',

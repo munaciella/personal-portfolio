@@ -11,7 +11,6 @@ import { ProfilePic } from './Components/ProfilePic';
 import { Ending } from './Components/Ending';
 
 // import { BrowserRouter, Routes, Route } from 'react-router-dom';
-// import './App.css';
 
 const App: React.FC = () => {
   const [theme, setTheme] = useState<string | null>(null);
