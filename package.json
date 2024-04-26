@@ -9,6 +9,9 @@
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
   },
+  "keywords": [],
+  "author": "Francesco",
+  "license": "MIT",
   "dependencies": {
     "netlify-cli": "^17.19.6",
     "react": "^18.2.0",
