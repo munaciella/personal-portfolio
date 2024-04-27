@@ -47,4 +47,10 @@ export default [
     stack: [<FaReact />, <SiTailwindcss />, <SiTypescript />],
     link: 'https://github.com/munaciella/personal-portfolio',
   },
+  {
+    title: 'Currency Converter',
+    imgUrl: '/assets/Portfolio.png',
+    stack: [<FaJsSquare />, <TbBrandReactNative />, <FaCss3 />, <SiVite />],
+    link: 'https://github.com/munaciella/currency-converter',
+  },
 ];
