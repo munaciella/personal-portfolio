@@ -49,7 +49,7 @@ export default [
   },
   {
     title: 'Currency Converter',
-    imgUrl: '/assets/Portfolio.png',
+    imgUrl: '/assets/Currency-Converter.png',
     stack: [<FaJsSquare />, <TbBrandReactNative />, <FaCss3 />, <SiVite />],
     link: 'https://github.com/munaciella/currency-converter',
   },
