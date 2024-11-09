@@ -12,17 +12,3 @@ const element = document.getElementById('root') || document.createElement('p');
     <App />
   </React.StrictMode>,
 )
-
-
-// import React from 'react';
-// import ReactDOM from 'react-dom';
-// import App from './App';
-// import './index.css';
-
-
-// ReactDOM.createRoot(
-//   <React.StrictMode>
-//     <App />
-//   </React.StrictMode>,
-//   document.getElementById('root')
-// );

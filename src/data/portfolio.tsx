@@ -7,24 +7,59 @@ import {
   FaReact,
 } from 'react-icons/fa';
 import { BiLogoPostgresql } from 'react-icons/bi';
-import { SiJest, SiTailwindcss, SiTypescript, SiMongodb, SiVite, SiAxios} from 'react-icons/si';
+import {
+  SiJest,
+  SiTailwindcss,
+  SiTypescript,
+  SiMongodb,
+  SiVite,
+  SiAxios,
+  SiSupabase,
+  SiNextdotjs,
+  SiVercel,
+  SiNetlify,
+} from 'react-icons/si';
 import { TbBrandReactNative, TbBrandTailwind } from 'react-icons/tb';
-
 
 export default [
   {
-    title: 'Munaciella-News Back-End',
-    imgUrl: '/assets/NC-News.png',
+    title: 'News Web Application',
+    imgUrl: '/assets/Munaciella-news.jpg',
     stack: [
-      <FaCss3 />, <FaJsSquare />, <FaReact />, <BiLogoPostgresql />, <FaNodeJs />, <SiJest />
+      <FaJsSquare />,
+      <FaHtml5 />,
+      <FaCss3 />,
+      <FaReact />,
+      <BiLogoPostgresql />,
+      <FaNodeJs />,
+      <SiJest />,
+      <SiVite />,
     ],
     link: 'https://github.com/munaciella/NC-news',
   },
   {
-    title: 'Munaciella-News',
-    imgUrl: '/assets/Munaciella-News.png',
-    stack: [ <FaHtml5 />, <FaReact />, <FaCss3 />, <FaJsSquare />],
-    link: 'https://munaciella-news.netlify.app/',
+    title: 'Events Platform Web Application',
+    imgUrl: '/assets/Eventsphere.jpg',
+    stack: [
+      <FaJsSquare />,
+      <TbBrandTailwind />,
+      <FaReact />,
+      <SiSupabase />,
+      <SiNetlify />,
+    ],
+    link: 'https://event-sphere-web.netlify.app/',
+  },
+  {
+    title: 'Recipes Web Application',
+    imgUrl: '/assets/Velovegans.jpg',
+    stack: [
+      <SiTypescript />,
+      <SiNextdotjs />,
+      <SiTailwindcss />,
+      <SiSupabase />,
+      <SiVercel />,
+    ],
+    link: 'https://velovegans.co.uk',
   },
   {
     title: 'Wax',
@@ -36,21 +71,20 @@ export default [
       <BiLogoPostgresql />,
       <SiMongodb />,
       <FaAws />,
-      <SiVite />,
       <SiAxios />,
     ],
     link: 'https://github.com/munaciella/gatefold-frontend/',
   },
   {
-    title: 'Developer Portfolio',
-    imgUrl: '/assets/Portfolio.png',
-    stack: [<FaReact />, <SiTailwindcss />, <SiTypescript />],
-    link: 'https://github.com/munaciella/personal-portfolio',
+    title: 'Crypto API',
+    imgUrl: '',
+    stack: [<SiTypescript />, <SiAxios />, <SiSupabase />, <SiJest />],
+    link: '',
   },
   {
     title: 'Currency Converter',
-    imgUrl: '/assets/Currency-Converter.png',
-    stack: [<FaJsSquare />, <TbBrandReactNative />, <FaCss3 />, <SiVite />],
+    imgUrl: '/assets/Currency-converter.jpg',
+    stack: [<FaJsSquare />, <TbBrandReactNative />, <FaCss3 />],
     link: 'https://github.com/munaciella/currency-converter',
   },
 ];

@@ -10,7 +10,6 @@ import { GMail } from './Components/GMail/GMail';
 import { ProfilePic } from './Components/ProfilePic';
 import { Ending } from './Components/Ending';
 
-// import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 const App: React.FC = () => {
   const [theme, setTheme] = useState<string | null>(null);
@@ -79,7 +78,6 @@ const App: React.FC = () => {
         {theme === 'dark' ? sun : moon}
       </button>
       <div className="bg-white dark:bg-stone-900 text-stone-900 dark:text-stone-300 min-h-screen font-inter">
-        {/* className="m-0 p-0 bg-cover bg-center bg-no-repeat" style={{ backgroundImage: `url(${backgroundImage` }> */}
         <ProfilePic />
         <GitHub />
         <LinkedIn />
@@ -96,17 +94,3 @@ const App: React.FC = () => {
 };
 
 export default App;
-
-{
-  /* <ThemeProvider>
-        <Header />
-        <Statement />
-        <BrowserRouter>
-          <Content />
-
-          <Routes>
-            <Route />
-          </Routes>
-        </BrowserRouter>
-      </ThemeProvider> */
-}

@@ -21,5 +21,3 @@ export const Timeline: React.FC = () => {
     </div>
   );
 };
-
-//md:w-7/12
