@@ -76,8 +76,8 @@ export default [
     link: 'https://github.com/munaciella/gatefold-frontend/',
   },
   {
-    title: 'Crypto API',
-    imgUrl: '',
+    title: 'Data Analytics API',
+    imgUrl: '/assets/pairsniper.png',
     stack: [<SiTypescript />, <SiAxios />, <SiSupabase />, <SiJest />],
     link: '',
   },
