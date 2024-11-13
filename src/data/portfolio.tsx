@@ -79,7 +79,7 @@ export default [
     title: 'Data Analytics API',
     imgUrl: '/assets/pairsniper.png',
     stack: [<SiTypescript />, <SiAxios />, <SiSupabase />, <SiJest />],
-    link: '',
+    link: 'https://github.com/munaciella/data-analytics-api',
   },
   {
     title: 'Currency Converter',
